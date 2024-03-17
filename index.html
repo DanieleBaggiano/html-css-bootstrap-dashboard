@@ -81,7 +81,8 @@
     <main>
         <div class="d-flex">
             <!-- sidebar -->
-            <div class="d-flex flex-column flex-shrink-0 pe-3 text-bg-dark d-none d-md-flex vh-100" style="width: 280px;">
+            <div class="d-flex flex-column flex-shrink-0 pe-3 text-bg-dark d-none d-md-flex vh-100"
+                style="width: 280px;">
                 <a href="/"
                     class="d-flex align-items-center pt-3 mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
                     <svg class="bi pe-none me-2" width="40" height="32">
@@ -139,7 +140,8 @@
                         <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
                         <strong>Mario Rossi</strong>
                     </a>
-                    <ul class="dropdown-menu dropdown-menu-dark text-small shadow border-dark-subtle bg-dark ms-3 p-2" style="width: 90%;">
+                    <ul class="dropdown-menu dropdown-menu-dark text-small shadow border-dark-subtle bg-dark ms-3 p-2"
+                        style="width: 90%;">
                         <li><a class="dropdown-item" href="#">Impostazioni</a></li>
                         <li><a class="dropdown-item" href="#">Profilo</a></li>
                         <li>
@@ -151,16 +153,230 @@
             </div>
             <!-- /sidebar -->
 
-            <div class="overflow-y-auto vh-100" style="width: 100%;">
-                <nav class="navbar navbar-expand align-content-start bg-body-tertiary" style="height: fit-content;">
+            <div class="overflow-y-auto vh-100 p-3" style="width: 100%;">
+                <nav class="navbar navbar-expand align-content-start border-bottom border-light-subtle" style="height: fit-content;">
                     <div class="container-fluid">
                         <a class="navbar-brand" href="#">10 prodotti trovati</a>
                         <div class="d-grid d-flex justify-content-md-end">
-                            <a class="btn border-dark-subtle border-end-0 rounded-end-0 btn-sm" href="sponsorizzazione.html" type="button">Esporta</a>
-                            <a class="btn btn border-dark-subtle border-start-1 rounded-start-0 btn-sm" href="nuovo-prodotto.html" type="button">Nuovo</a>
+                            <a class="btn border-dark-subtle border-end-0 rounded-end-0 btn-sm"
+                                href="sponsorizzazione.html" type="button">Esporta</a>
+                            <a class="btn btn border-dark-subtle border-start-1 rounded-start-0 btn-sm"
+                                href="nuovo-prodotto.html" type="button">Nuovo</a>
                         </div>
                     </div>
                 </nav>
+                <table class="table table-sm mt-3">
+                    <thead>
+                        <tr>
+                            <th scope="col">Nome</th>
+                            <th scope="col">Prezzo</th>
+                            <th scope="col" class="text-center">Stato</th>
+                            <th scope="col">Azioni</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="row" class="d-flex align-items-center">
+                                <img src="https://picsum.photos/50/50" alt="Lorem Picsum">
+                                <div class="d-flex flex-column ps-3">
+                                    <span>Smartphone Samsung Galaxy S21</span>
+                                    <p class="fw-lighter" style="font-size: .8rem;">Display AMOLED, Fotocamera Ultra Wide, Batteria a lunga durata
+                                    </p>
+                                </div>
+                            </td>
+                            <td style="line-height: 2.1em;">799.00€</td>
+                            <td class="fs-4 text-success text-center"><i class="bi bi-check-circle"></i></td>
+                            <td style="line-height: 2.1em;">
+                                <button type="button" class="btn btn-outline-danger p-0 px-1">
+                                    <i class="bi bi-pencil-fill"></i>
+                                </button>
+                                <button type="button" class="btn btn-outline-primary p-0 px-1">
+                                    <i class="bi bi-trash"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td scope="row" class="d-flex align-items-center">
+                                <img src="https://picsum.photos/50/50" alt="Lorem Picsum">
+                                <div class="d-flex flex-column ps-3">
+                                    <span>Smartphone Samsung Galaxy S21</span>
+                                    <p class="fw-lighter" style="font-size: .8rem;">Display AMOLED, Fotocamera Ultra Wide, Batteria a lunga durata
+                                    </p>
+                                </div>
+                            </td>
+                            <td style="line-height: 2.1em;">799.00€</td>
+                            <td class="fs-4 text-success text-center"><i class="bi bi-check-circle"></i></td>
+                            <td style="line-height: 2.1em;">
+                                <button type="button" class="btn btn-outline-danger p-0 px-1">
+                                    <i class="bi bi-pencil-fill"></i>
+                                </button>
+                                <button type="button" class="btn btn-outline-primary p-0 px-1">
+                                    <i class="bi bi-trash"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td scope="row" class="d-flex align-items-center">
+                                <img src="https://picsum.photos/50/50" alt="Lorem Picsum">
+                                <div class="d-flex flex-column  ps-3">
+                                    <span>Smartphone Samsung Galaxy S21</span>
+                                    <p class="fw-lighter" style="font-size: .8rem;">Display AMOLED, Fotocamera Ultra Wide, Batteria a lunga durata
+                                    </p>
+                                </div>
+                            </td>
+                            <td style="line-height: 2.1em;">799.00€</td>
+                            <td class="fs-4 text-success text-center"><i class="bi bi-check-circle"></i></td>
+                            <td style="line-height: 2.1em;">
+                                <button type="button" class="btn btn-outline-danger p-0 px-1">
+                                    <i class="bi bi-pencil-fill"></i>
+                                </button>
+                                <button type="button" class="btn btn-outline-primary p-0 px-1">
+                                    <i class="bi bi-trash"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td scope="row" class="d-flex align-items-center">
+                                <img src="https://picsum.photos/50/50" alt="Lorem Picsum">
+                                <div class="d-flex flex-column ps-3">
+                                    <span>Smartphone Samsung Galaxy S21</span>
+                                    <p class="fw-lighter" style="font-size: .8rem;">Display AMOLED, Fotocamera Ultra Wide, Batteria a lunga durata
+                                    </p>
+                                </div>
+                            </td>
+                            <td style="line-height: 2.1em;">799.00€</td>
+                            <td class="fs-4 text-success text-center"><i class="bi bi-check-circle"></i></td>
+                            <td style="line-height: 2.1em;">
+                                <button type="button" class="btn btn-outline-danger p-0 px-1">
+                                    <i class="bi bi-pencil-fill"></i>
+                                </button>
+                                <button type="button" class="btn btn-outline-primary p-0 px-1">
+                                    <i class="bi bi-trash"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td scope="row" class="d-flex align-items-center">
+                                <img src="https://picsum.photos/50/50" alt="Lorem Picsum">
+                                <div class="d-flex flex-column ps-3">
+                                    <span>Smartphone Samsung Galaxy S21</span>
+                                    <p class="fw-lighter" style="font-size: .8rem;">Display AMOLED, Fotocamera Ultra Wide, Batteria a lunga durata
+                                    </p>
+                                </div>
+                            </td>
+                            <td style="line-height: 2.1em;">799.00€</td>
+                            <td class="fs-4 text-success text-center"><i class="bi bi-check-circle"></i></td>
+                            <td style="line-height: 2.1em;">
+                                <button type="button" class="btn btn-outline-danger p-0 px-1">
+                                    <i class="bi bi-pencil-fill"></i>
+                                </button>
+                                <button type="button" class="btn btn-outline-primary p-0 px-1">
+                                    <i class="bi bi-trash"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td scope="row" class="d-flex align-items-center">
+                                <img src="https://picsum.photos/50/50" alt="Lorem Picsum">
+                                <div class="d-flex flex-column ps-3">
+                                    <span>Smartphone Samsung Galaxy S21</span>
+                                    <p class="fw-lighter" style="font-size: .8rem;">Display AMOLED, Fotocamera Ultra Wide, Batteria a lunga durata
+                                    </p>
+                                </div>
+                            </td>
+                            <td style="line-height: 2.1em;">799.00€</td>
+                            <td class="fs-4 text-danger text-center"><i class="bi bi-x-circle"></i></td>
+                            <td style="line-height: 2.1em;">
+                                <button type="button" class="btn btn-outline-danger p-0 px-1">
+                                    <i class="bi bi-pencil-fill"></i>
+                                </button>
+                                <button type="button" class="btn btn-outline-primary p-0 px-1">
+                                    <i class="bi bi-trash"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td scope="row" class="d-flex align-items-center">
+                                <img src="https://picsum.photos/50/50" alt="Lorem Picsum">
+                                <div class="d-flex flex-column ps-3">
+                                    <span>Smartphone Samsung Galaxy S21</span>
+                                    <p class="fw-lighter" style="font-size: .8rem;">Display AMOLED, Fotocamera Ultra Wide, Batteria a lunga durata
+                                    </p>
+                                </div>
+                            </td>
+                            <td style="line-height: 2.1em;">799.00€</td>
+                            <td class="fs-4 text-success text-center"><i class="bi bi-check-circle"></i></td>
+                            <td style="line-height: 2.1em;">
+                                <button type="button" class="btn btn-outline-danger p-0 px-1">
+                                    <i class="bi bi-pencil-fill"></i>
+                                </button>
+                                <button type="button" class="btn btn-outline-primary p-0 px-1">
+                                    <i class="bi bi-trash"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td scope="row" class="d-flex align-items-center">
+                                <img src="https://picsum.photos/50/50" alt="Lorem Picsum">
+                                <div class="d-flex flex-column ps-3">
+                                    <span>Smartphone Samsung Galaxy S21</span>
+                                    <p class="fw-lighter" style="font-size: .8rem;">Display AMOLED, Fotocamera Ultra Wide, Batteria a lunga durata
+                                    </p>
+                                </div>
+                            </td>
+                            <td style="line-height: 2.1em;">799.00€</td>
+                            <td class="fs-4 text-success text-center"><i class="bi bi-check-circle"></i></td>
+                            <td style="line-height: 2.1em;">
+                                <button type="button" class="btn btn-outline-danger p-0 px-1">
+                                    <i class="bi bi-pencil-fill"></i>
+                                </button>
+                                <button type="button" class="btn btn-outline-primary p-0 px-1">
+                                    <i class="bi bi-trash"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td scope="row" class="d-flex align-items-center">
+                                <img src="https://picsum.photos/50/50" alt="Lorem Picsum">
+                                <div class="d-flex flex-column ps-3">
+                                    <span>Smartphone Samsung Galaxy S21</span>
+                                    <p class="fw-lighter" style="font-size: .8rem;">Display AMOLED, Fotocamera Ultra Wide, Batteria a lunga durata
+                                    </p>
+                                </div>
+                            </td>
+                            <td style="line-height: 2.1em;">799.00€</td>
+                            <td class="fs-4 text-success text-center"><i class="bi bi-check-circle"></i></td>
+                            <td style="line-height: 2.1em;">
+                                <button type="button" class="btn btn-outline-danger p-0 px-1">
+                                    <i class="bi bi-pencil-fill"></i>
+                                </button>
+                                <button type="button" class="btn btn-outline-primary p-0 px-1">
+                                    <i class="bi bi-trash"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td scope="row" class="d-flex align-items-center">
+                                <img src="https://picsum.photos/50/50" alt="Lorem Picsum">
+                                <div class="d-flex flex-column ps-3">
+                                    <span>Smartphone Samsung Galaxy S21</span>
+                                    <p class="fw-lighter" style="font-size: .8rem;">Display AMOLED, Fotocamera Ultra Wide, Batteria a lunga durata
+                                    </p>
+                                </div>
+                            </td>
+                            <td style="line-height: 2.1em;">799.00€</td>
+                            <td class="fs-4 text-success text-center"><i class="bi bi-check-circle"></i></td>
+                            <td style="line-height: 2.1em;">
+                                <button type="button" class="btn btn-outline-danger p-0 px-1">
+                                    <i class="bi bi-pencil-fill"></i>
+                                </button>
+                                <button type="button" class="btn btn-outline-primary p-0 px-1">
+                                    <i class="bi bi-trash"></i>
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </main>
