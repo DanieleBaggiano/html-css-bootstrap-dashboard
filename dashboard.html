@@ -19,7 +19,7 @@
     <!-- style css -->
     <link rel="stylesheet" href="./css/style.css">
 
-    <title>Sponsorizzazione</title>
+    <title>Dashboard</title>
 </head>
 
 <body>
@@ -43,10 +43,10 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="dashboard.html">Dashboard</a>
+                            <a class="nav-link active" aria-current="page" href="dashboard.html">Dashboard</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="sponsorizzazione.html">Sponsorizzazione</a>
+                            <a class="nav-link" href="sponsorizzazione.html">Sponsorizzazione</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="index.html">Prodotti</a>
@@ -81,7 +81,8 @@
     <main>
         <div class="d-flex">
             <!-- sidebar -->
-            <div class="d-flex flex-column flex-shrink-0 pe-3 text-bg-dark d-none d-md-flex" style="width: 280px;">
+            <div class="d-flex flex-column flex-shrink-0 pe-3 text-bg-dark d-none d-md-flex"
+                style="width: 280px;">
                 <a href="/"
                     class="d-flex align-items-center pt-3 mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
                     <svg class="bi pe-none me-2" width="40" height="32">
@@ -92,7 +93,7 @@
                 <hr>
                 <ul class="nav nav-pills flex-column">
                     <li class="nav-item">
-                        <a href="dashboard.html" class="nav-link text-white" aria-current="page">
+                        <a href="dashboard.html" class="nav-link text-white active" aria-current="page">
                             <svg class="bi pe-none me-2" width="16" height="16">
                                 <use xlink:href="#dashboard"></use>
                             </svg> <i class="bi bi-house-fill"></i>
@@ -100,7 +101,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="sponsorizzazione.html" class="nav-link text-white active">
+                        <a href="sponsorizzazione.html" class="nav-link text-white">
                             <svg class="bi pe-none me-2" width="16" height="16">
                                 <use xlink:href="#sponsorizzazione"></use>
                             </svg> <i class="bi bi-graph-up"></i>
@@ -152,86 +153,8 @@
             </div>
             <!-- /sidebar -->
 
-            <div class="overflow-y-auto m-4 bg-light bg-gradient vh-100" style="width: 100%;">
-                <div class="container">
-                    <div class="text-center pt-4">
-                        <h3>Trova il piano perfetto per te!</h3>
-                        <p>
-                            Scegli tra le nostre opzioni di abbonamento e goditi funzionalità esclusive e performance
-                            migliori.
-                        </p>
-                        <span class="fw-medium text-body-secondary">
-                            <strong>Porta la tua esperienza al livello successivo!</strong>
-                        </span>
-                        <div class="p-3">
-                            <button type="button" class="btn btn-primary rounded-5">Scopri di più</button>
-                            <button type="button"
-                                class="btn btn-light border border-secondary rounded-pill text-body-secondary">Contattaci</button>
-                        </div>
-                    </div>
-                    <div class="row row-cols-1 row-cols-lg-3 mb-3 text-center pt-5">
-                        <div class="col">
-                            <div class="card mb-4 rounded-3 shadow-sm">
-                                <div class="card-header py-3">
-                                    <h4 class="my-0 fw-normal">Gratis</h4>
-                                </div>
-                                <div class="card-body">
-                                    <h1 class="card-title pricing-card-title">€0<small
-                                            class="text-body-secondary fw-light">/mese</small></h1>
-                                    <ul class="list-unstyled mt-3 mb-4">
-                                        <li>10 utenti</li>
-                                        <li>2 GB di spazio</li>
-                                        <li>Pubblicità</li>
-                                        <li>Supporto email</li>
-                                    </ul>
-                                    <button type="button" class="w-100 btn btn-lg btn-outline-primary">
-                                        Prosegui
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card mb-4 rounded-3 shadow-sm border-primary">
-                                <div class="card-header py-3 text-bg-primary border-primary">
-                                    <h4 class="my-0 fw-normal">Premium</h4>
-                                </div>
-                                <div class="card-body">
-                                    <h1 class="card-title pricing-card-title">€15<small
-                                            class="text-body-secondary fw-light">/mese</small></h1>
-                                    <ul class="list-unstyled mt-3 mb-4">
-                                        <li>50 utenti</li>
-                                        <li>10 GB di spazio</li>
-                                        <li>Senza Pubblicità</li>
-                                        <li>Supporto email prioritario</li>
-                                    </ul>
-                                    <button type="button" class="w-100 btn btn-lg btn-primary">
-                                        Prosegui
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card mb-4 rounded-3 shadow-sm">
-                                <div class="card-header py-3">
-                                    <h4 class="my-0 fw-normal">Enterpise</h4>
-                                </div>
-                                <div class="card-body">
-                                    <h1 class="card-title pricing-card-title">€29<small
-                                            class="text-body-secondary fw-light">/mese</small></h1>
-                                    <ul class="list-unstyled mt-3 mb-4">
-                                        <li>Utenti illimitati</li>
-                                        <li>Spazio illimitato</li>
-                                        <li>Senza Pubblicità</li>
-                                        <li>upporto via email e chat</li>
-                                    </ul>
-                                    <button type="button" class="w-100 btn btn-lg btn-primary">
-                                        Prosegui
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="overflow-y-auto vh-100 p-4 pt-4" style="width: 100%;">
+                <img src="./img/images.jpeg" class="img-fluid img-thumbnail vh-100" alt="saluti">
             </div>
         </div>
     </main>
